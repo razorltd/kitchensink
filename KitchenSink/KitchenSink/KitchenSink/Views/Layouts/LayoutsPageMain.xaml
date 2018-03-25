@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="KitchenSink.Views.Layouts.LayoutsPageMain"
+             xmlns:layout="clr-namespace:KitchenSink.Views.Layouts;assembly=KitchenSink" 
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             mvvm:ViewModelLocator.AutowireViewModel="True"
+             Title="Layouts" 
+             BackgroundColor="{DynamicResource BrandPurple}">
+    <TabbedPage.Children>
+        <layout:StackLayout />
+        <layout:RelativeLayout />
+        <layout:AbsoluteLayout />
+        <layout:GridLayout />    
+    </TabbedPage.Children>
+</TabbedPage>

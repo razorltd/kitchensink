@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             mvvm:ViewModelLocator.AutowireViewModel="True"
+             x:Class="KitchenSink.Views.Layouts.GridLayout"
+             Title="Grid"
+             BackgroundColor="{DynamicResource BrandPurple}">
+     <ContentPage.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="iOS">grid.png</On>
+        </OnPlatform>
+    </ContentPage.Icon>
+    <ContentPage.Content>
+         <ScrollView>   
+            <StackLayout Padding="25,30">
+                 <Label Text="Grid Layout" Style="{DynamicResource MainHeading}" />
+                 <Label Text="Grid layouts are used to arrange content in rows and columns giving lots of flexibility over layouts. Content can be spanned over multiple rows and columns." 
+                       Style="{DynamicResource BodyText}" />
+
+                 <Label Margin="0,15,0,5" Text="Example" Style="{DynamicResource SubHeading}" />          
+                 <Grid VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition> 
+                        <RowDefinition Height="*"></RowDefinition>                    
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>                       
+                    </Grid.ColumnDefinitions>
+                   
+                    <BoxView Grid.Row="0" BackgroundColor="{DynamicResource BrandTurquoise}" />
+                    <BoxView Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" BackgroundColor="{DynamicResource BrandYellow}" />
+                    <BoxView Grid.Row="0" Grid.Column="2" BackgroundColor="{DynamicResource BrandTurquoise}" />
+                    <BoxView Grid.Row="0" Grid.Column="3" BackgroundColor="{DynamicResource BrandYellow}" />
+                    <BoxView Grid.Row="1" BackgroundColor="{DynamicResource BrandYellow}" />
+                    <BoxView Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"  Grid.RowSpan="2" BackgroundColor="{DynamicResource BrandTurquoise}" />                  
+                    <BoxView Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2" BackgroundColor="{DynamicResource BrandTurquoise}" />
+                    <BoxView Grid.Row="3" Grid.Column="2" BackgroundColor="{DynamicResource BrandYellow}" />
+                    <BoxView Grid.Row="3" Grid.Column="3" BackgroundColor="{DynamicResource BrandYellow}" />
+                 </Grid>          
+              </StackLayout>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

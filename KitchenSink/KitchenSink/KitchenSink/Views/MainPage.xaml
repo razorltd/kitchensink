@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KitchenSink.Views.MainPage"
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"            
+             mvvm:ViewModelLocator.AutowireViewModel="True" 
+             Style="{DynamicResource Container}" >
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Image Source="logo.png" WidthRequest="250" />
+                <Label Text="Kitchen Sink" Margin="0,30,0,10" HorizontalOptions="Center" FontSize="26" HorizontalTextAlignment="Center" TextColor="#FFFFFF" />               
+            </StackLayout>
+
+            <StackLayout VerticalOptions="CenterAndExpand" Margin="20,0">
+                <Button Text="Layouts" Command="{Binding NavigateLayoutCommand}" Style="{DynamicResource PrimaryButton}" />
+                <Button Text="Components" Command="{Binding NavigateComponentCommand}" Style="{DynamicResource PrimaryButton}" />
+            </StackLayout>
+        </StackLayout>
+            
+    </ContentPage.Content>
+
+
+</ContentPage>

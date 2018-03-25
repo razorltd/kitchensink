@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="KitchenSink.Views.Components.Modal"
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"  
+             mvvm:ViewModelLocator.AutowireViewModel="True" 
+             BackgroundColor="{DynamicResource BrandPurple}" >
+    <ContentPage.Content>
+       <ScrollView>
+            <Grid Padding="25, 30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+               <StackLayout Grid.Row="0">             
+                     <Label Text="Modal Example" Style="{DynamicResource MainHeading}" />
+                     <Label TextColor="{DynamicResource BrandWhite}"  Margin="0,0,0,15" Text="Text goes here " /> 
+
+                     <Button Text="Modal" Command="{Binding DisplayModelCommand}" Style="{DynamicResource PrimaryButton}" />
+                </StackLayout>
+    
+                <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                    <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
+                    <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
+                    <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
+                    <Image Source="selected.png" WidthRequest="10" HeightRequest="10"  />
+                </StackLayout> 
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

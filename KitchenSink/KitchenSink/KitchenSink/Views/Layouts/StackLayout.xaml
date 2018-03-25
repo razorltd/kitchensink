@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="KitchenSink.Views.Layouts.StackLayout"
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             mvvm:ViewModelLocator.AutowireViewModel="True" 
+             Title="Stack"
+             BackgroundColor="{DynamicResource BrandPurple}">   
+    <ContentPage.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="iOS">stack.png</On>
+        </OnPlatform>
+    </ContentPage.Icon>
+    <ContentPage.Content>
+        <ScrollView>    
+            <StackLayout Padding="25,30">
+                <Label Text="Stack Layout" 
+                       Style="{DynamicResource MainHeading}" />
+                
+                <Label Text="Stacked layouts allow you to organise your views in a stack, based on the orientation property which can be either horizontally or vertically." 
+                       Style="{DynamicResource BodyText}" />
+
+                <StackLayout Margin="0,10">
+                    <Label Text="Defaults" 
+                           Style="{DynamicResource SubHeading}" />
+                    
+                    <Label Text="Orientation: Vertical" 
+                           Style="{DynamicResource BodyText}" />
+                    
+                    <Label Text="Spacing: 6" 
+                           Style="{DynamicResource BodyText}" />
+                </StackLayout>
+
+                    <Label Margin="0,0,0,10" Text="Example" Style="{DynamicResource SubHeading}" />          
+
+                    <BoxView HeightRequest="60" 
+                             BackgroundColor="{DynamicResource BrandYellow}" />
+                
+                    <BoxView HeightRequest="100" 
+                             BackgroundColor="{DynamicResource BrandTurquoise}" />
+                
+                    <BoxView HeightRequest="50" 
+                             BackgroundColor="{DynamicResource BrandYellow}" />
+                
+                    <BoxView HeightRequest="50" 
+                             BackgroundColor="{DynamicResource BrandTurquoise}" />
+            </StackLayout> 
+        </ScrollView>  
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="KitchenSink.Views.Components.ComponentsMain"
+             xmlns:local="clr-namespace:KitchenSink.Views.Components;assembly=KitchenSink"
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"            
+             mvvm:ViewModelLocator.AutowireViewModel="True" 
+             Title="Components" >
+    <CarouselPage.Children>
+        <local:Slider /> 
+        <local:Alerts />
+        <local:Forms />
+        <local:Modal />
+    </CarouselPage.Children>
+</CarouselPage>

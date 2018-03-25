@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Autofac;assembly=Prism.Autofac.Forms" 
+             x:Class="KitchenSink.App" >
+    <Application.Resources>
+
+          <ResourceDictionary>   
+            <Color x:Key="PrimaryColour">#F15A5D</Color>
+            <Color x:Key="BrandPurple">#261D3C</Color>
+            <Color x:Key="BrandTurquoise">#7CC4A9</Color>
+            <Color x:Key="BrandYellow">#FFF046</Color>
+            <Color x:Key="BrandSlate">#303030</Color>
+            <Color x:Key="BrandWhite">#FFFFFF</Color>
+           
+            <Style x:Key="PrimaryButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColour}" />
+                <Setter Property="TextColor" Value="#FFFFFF" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+
+             <Style x:Key="DismissButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="TextColor" Value="{StaticResource BrandWhite}" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="BorderWidth" Value="1" />
+                <Setter Property="BorderColor" Value="{StaticResource BrandWhite}"/>
+            </Style>
+
+
+
+            <Style x:Key="Container" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource BrandPurple}" />
+                <Setter Property="Padding" Value="25, 30" />
+            </Style>
+
+            <Style x:Key="MainHeading" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource PrimaryColour}"/>
+                <Setter Property="FontSize" Value="26" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+             <Style x:Key="SubHeading" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource BrandWhite}"/>
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+            
+            <Style x:Key="BodyText" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource BrandWhite}" />
+                <Setter Property="FontSize" Value="14" />      
+            </Style>   
+
+
+            <Style x:Key="FormsBaseStyle" TargetType="View">
+                <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColour}" />
+            </Style>
+
+            <Style x:Key="Form_Label" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource BrandWhite}" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+            <Style x:Key="Forms_Inputs" TargetType="Entry" BasedOn="{StaticResource FormsBaseStyle}">
+                <Setter Property="PlaceholderColor" Value="{StaticResource BrandWhite}" />
+                <Setter Property="TextColor" Value="{StaticResource BrandWhite}" />
+            </Style>
+
+            <Style x:Key="Forms_Time" TargetType="TimePicker" BasedOn="{StaticResource FormsBaseStyle}">
+                <Setter Property="TextColor" Value="{StaticResource BrandWhite}" />
+            </Style>
+            <Style x:Key="Forms_Date" TargetType="DatePicker" BasedOn="{StaticResource FormsBaseStyle}">
+                <Setter Property="TextColor" Value="{StaticResource BrandWhite}" />
+                <Setter Property="Format" Value="dd/MM/yyyy" />
+             </Style>
+
+             <Style x:Key="Forms_Editor" TargetType="Editor" BasedOn="{StaticResource FormsBaseStyle}">
+                <Setter Property="TextColor" Value="{StaticResource BrandWhite}" />
+                <Setter Property="HeightRequest" Value="150" />
+             </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</prism:PrismApplication>

@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="Prism.Autofac.Forms" Version="7.0.0.396" />
+    <PackageReference Include="Prism.Forms" Version="7.0.0.396" />
+    <PackageReference Include="Prism.Core" Version="7.0.0.396" />
+    <PackageReference Include="LiveXAML" Version="2.1.22" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ViewModels\Layouts\RelativeLayout.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+      <!-- <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile> -->
+    <Compile Update="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Layouts\AbsoluteLayout.xaml.cs">
+      <DependentUpon>AbsoluteLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Layouts\LayoutsPageMain.xaml.cs">
+      <DependentUpon>LayoutsPageMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Layouts\GridLayout.xaml.cs">
+      <DependentUpon>GridLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Layouts\RelativeLayout.xaml.cs">
+      <DependentUpon>RelativeLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Layouts\StackLayout.xaml.cs">
+      <DependentUpon>StackLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Components\ComponentsMain.xaml.cs">
+      <DependentUpon>ComponentsMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Components\Slider.xaml.cs">
+      <DependentUpon>Slider.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Components\Alerts.xaml.cs">
+      <DependentUpon>Alerts.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Components\Forms.xaml.cs">
+      <DependentUpon>Forms.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Layouts\" />
+    <Folder Include="ViewModels\Layouts\" />
+    <Folder Include="Views\Components\" />
+    <Folder Include="ViewModels\Components\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="ViewModels\Layouts\RelativeLayout.xaml" />
+  </ItemGroup>
+</Project>

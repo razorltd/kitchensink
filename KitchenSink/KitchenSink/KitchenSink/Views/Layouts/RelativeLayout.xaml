@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             mvvm:ViewModelLocator.AutowireViewModel="True"             
+             x:Class="KitchenSink.Views.Layouts.RelativeLayout" 
+             Title="Relative"
+             BackgroundColor="{DynamicResource BrandPurple}">
+    <ContentPage.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="iOS">relative.png</On>
+        </OnPlatform>
+    </ContentPage.Icon>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="25,30">
+                <Label Text="Relative Layouts" 
+                       Style="{DynamicResource MainHeading}" />
+
+                <Label Text="Relative layouts are used to position and size views relative to properties of the layout or sibling views." 
+                       Style="{DynamicResource BodyText}" />
+                <Label Margin="0,15,0,5" 
+                       Text="Example" 
+                       Style="{DynamicResource SubHeading}" />     
+                <RelativeLayout Margin="10">
+                    <BoxView Color="{DynamicResource BrandYellow}" 
+                             HeightRequest="100"
+                             RelativeLayout.WidthConstraint="{ConstraintExpression 
+                                Type=RelativeToParent, 
+                                Property=Width, 
+                                Factor=1}" />
+                    <Button BorderRadius="35" 
+                            x:Name="imageCircleBack"
+                            BackgroundColor="{DynamicResource PrimaryColour}" 
+                            HeightRequest="70" 
+                            WidthRequest="70" 
+                            RelativeLayout.XConstraint="{ConstraintExpression 
+                                Type=RelativeToParent,
+                                Property=Width, 
+                                Factor=.5,  
+                                Constant = -35}" 
+                            RelativeLayout.YConstraint="{ConstraintExpression 
+                                Type=RelativeToParent, 
+                                Factor=0, 
+                                Property=Y, 
+                                Constant=70}" />
+                    <Button BorderRadius="30" 
+                            BackgroundColor="{DynamicResource BrandTurquoise}" 
+                            HeightRequest="60"
+                            WidthRequest="60" 
+                            RelativeLayout.XConstraint="{ConstraintExpression 
+                                Type=RelativeToView, 
+                                ElementName=imageCircleBack, 
+                                Property=X, 
+                                Factor=1,
+                                Constant=5}" 
+                    RelativeLayout.YConstraint="{ConstraintExpression 
+                                Type=RelativeToParent, 
+                                Factor=0, 
+                                Property=Y, 
+                                Constant=75}" />
+                </RelativeLayout>
+            </StackLayout> 
+        </ScrollView> 
+    </ContentPage.Content>
+</ContentPage>

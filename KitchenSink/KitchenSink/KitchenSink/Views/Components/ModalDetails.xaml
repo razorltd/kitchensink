@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="KitchenSink.Views.Components.ModalDetails"
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"  
+             mvvm:ViewModelLocator.AutowireViewModel="True" 
+             Style="{DynamicResource Container}" BackgroundColor="{DynamicResource PrimaryColour}">
+    <ContentPage.Content>
+         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+            <Label Text="Modal has been triggered" TextColor="{DynamicResource BrandWhite}"/>
+            <Button Text="Dismiss" Command="{Binding DismissModalCommand}" Margin="0,10,0,0" Style="{DynamicResource DismissButton}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
