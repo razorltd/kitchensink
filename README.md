@@ -40,11 +40,7 @@ KitchenSink/
 
 ### Examples
 
-#### IOS Example
-![IOS Example](https://raw.githubusercontent.com/razorltd/kitchensink/master/ios-example.gif)
-
-#### Android Example
-![Android Example](https://raw.githubusercontent.com/razorltd/kitchensink/master/android-example.gif)
+![IOS Example](https://raw.githubusercontent.com/razorltd/kitchensink/master/ios-example.gif "IOS Example") ![Android Example](https://raw.githubusercontent.com/razorltd/kitchensink/master/android-example.gif "Android Example")
 
 ## Future Releases 
 
