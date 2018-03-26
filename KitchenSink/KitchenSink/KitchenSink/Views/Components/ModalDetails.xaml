@@ -4,7 +4,8 @@
              x:Class="KitchenSink.Views.Components.ModalDetails"
              xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"  
              mvvm:ViewModelLocator.AutowireViewModel="True" 
-             Style="{DynamicResource Container}" BackgroundColor="{DynamicResource PrimaryColour}">
+             Style="{DynamicResource Container}" 
+             BackgroundColor="{DynamicResource PrimaryColour}">
     <ContentPage.Content>
          <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
             <Label Text="Modal has been triggered" TextColor="{DynamicResource BrandWhite}"/>

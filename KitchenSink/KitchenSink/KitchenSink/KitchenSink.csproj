@@ -11,6 +11,7 @@
     <PackageReference Include="Prism.Forms" Version="7.0.0.396" />
     <PackageReference Include="Prism.Core" Version="7.0.0.396" />
     <PackageReference Include="LiveXAML" Version="2.1.22" />
+    <PackageReference Include="Xamarin.Controls.SignaturePad.Forms" Version="2.3.0" />
   </ItemGroup>
 
   <ItemGroup>

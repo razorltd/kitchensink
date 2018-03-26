@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="KitchenSink.Views.Components.Alerts"
              xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"            
-             mvvm:ViewModelLocator.AutowireViewModel="True" BackgroundColor="{DynamicResource BrandPurple}" >
+             mvvm:ViewModelLocator.AutowireViewModel="True" 
+             BackgroundColor="{DynamicResource BrandPurple}" >
     <ContentPage.Content>
        <Grid Padding="25, 30">
             <Grid.RowDefinitions>
@@ -30,6 +31,7 @@
                 <Image Source="selected.png" WidthRequest="10" HeightRequest="10"  />
                 <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
                 <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
+                <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  /> 
             </StackLayout>  
          </Grid>    
     </ContentPage.Content>
