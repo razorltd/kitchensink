@@ -5,6 +5,10 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+
 namespace KitchenSink.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -22,10 +26,16 @@ namespace KitchenSink.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            AppCenter.Start("b9e0fdfd-cca7-4076-821e-fcc8b6175efc",
+                   typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("b9e0fdfd-cca7-4076-821e-fcc8b6175efc", typeof(Analytics), typeof(Crashes));
+
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
+
+
         }
     }
 }
