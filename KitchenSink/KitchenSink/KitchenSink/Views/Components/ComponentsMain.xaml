@@ -11,5 +11,6 @@
         <local:Alerts />
         <local:Forms />
         <local:Modal />
+        <local:Signature />
     </CarouselPage.Children>
 </CarouselPage>
