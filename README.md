@@ -46,7 +46,7 @@ KitchenSink/
 
 - [ ] Accessing the devices camera app functionality 
 - [ ] Map
-- [x] Signaure Pad
+- [x] Signature Pad
 - [ ] Better Navigation
 - [ ] More Components
 
