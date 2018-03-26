@@ -7,6 +7,7 @@
              mvvm:ViewModelLocator.AutowireViewModel="True" 
              Title="Components" >
     <CarouselPage.Children>
+        <local:Signature />
         <local:Slider /> 
         <local:Alerts />
         <local:Forms />
