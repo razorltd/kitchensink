@@ -12,8 +12,8 @@
         </OnPlatform>
     </ContentPage.Icon>
     <ContentPage.Content>
-         <ScrollView>   
-            <StackLayout Padding="25,30">
+      <ScrollView>   
+                <StackLayout Padding="25,30">
                 <Label Text="Absolute Layout" Style="{DynamicResource MainHeading}" />
                 <Label Text="Can be used to position and size child elements by absolute values. This provides the ability to use the X, Y, Width and Height values." 
                        Style="{DynamicResource BodyText}" />

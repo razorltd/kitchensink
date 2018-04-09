@@ -23,8 +23,8 @@
                     <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
                     <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
                     <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
-                    <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
                     <Image Source="selected.png" WidthRequest="10" HeightRequest="10"  />
+                    <Image Source="unselected.png" WidthRequest="10" HeightRequest="10"  />
                 </StackLayout> 
             </Grid>
         </ScrollView>
