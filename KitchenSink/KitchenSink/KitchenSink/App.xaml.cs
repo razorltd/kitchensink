@@ -12,8 +12,10 @@
     using Views.Layouts;
     using Views.Components;
     using Xamarin.Forms;
-
-
+    using Microsoft.AppCenter;
+    using Microsoft.AppCenter.Analytics;
+    using Microsoft.AppCenter.Crashes;
+  
     public partial class App : PrismApplication
     {
         public static IContainerRegistry ContainerRegistry { get; set; }
@@ -27,8 +29,13 @@
         {
             InitializeComponent();
             await NavigationService.NavigateAsync($"/{nameof(NavigationPage)}/{nameof(MainPage)}");
-            // await NavigationService.NavigateAsync(NavigationPage/"MainPage");
+
+            AppCenter.Start("ios=b9e0fdfd-cca7-4076-821e-fcc8b6175efc;" +
+                            "android=b9151663-2979-46ac-8667-bcd1f7a7773b;",
+                            typeof(Analytics), typeof(Crashes));
         }
+
+
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
