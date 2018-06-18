@@ -223,3 +223,5 @@ _Pvt_Extensions
 dotnet-pack/
 dotnet-publish/
 dotnet-test/
+
+.mfractor/
