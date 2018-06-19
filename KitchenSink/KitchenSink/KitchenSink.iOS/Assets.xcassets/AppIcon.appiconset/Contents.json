@@ -1,116 +1,115 @@
 {
   "images": [
     {
-      "filename": "Appicon 40x40.png",
+      "filename": "40x40.png",
       "size": "20x20",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "Appicon 60x60.png",
+      "filename": "60x60.png",
       "size": "20x20",
       "scale": "3x",
       "idiom": "iphone"
     },
     {
-      "filename": "Appicon 58x58.png",
+      "filename": "58x58_1.png",
       "size": "29x29",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "AppIcon 87x87.png",
+      "filename": "87x87.png",
       "size": "29x29",
       "scale": "3x",
       "idiom": "iphone"
     },
     {
-      "filename": "AppIcon 80x80.png",
+      "filename": "80x80.png",
       "size": "40x40",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "AppIcon 120x120.png",
+      "filename": "120x120.png",
       "size": "40x40",
       "scale": "3x",
       "idiom": "iphone"
     },
     {
-      "filename": "AppIcon 120x120.png",
+      "filename": "120x120.png",
       "size": "60x60",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "AppIcon 180x180.png",
+      "filename": "180x180.png",
       "size": "60x60",
       "scale": "3x",
       "idiom": "iphone"
     },
     {
-      "filename": "AppIcon 20x20.png",
+      "filename": "20x20.png",
       "size": "20x20",
       "scale": "1x",
       "idiom": "ipad"
     },
     {
-      "filename": "Appicon 40x40.png",
+      "filename": "40x40.png",
       "size": "20x20",
       "scale": "2x",
       "idiom": "ipad"
     },
     {
-      "filename": "AppIcon 29x29.png",
+      "filename": "29x29.png",
       "size": "29x29",
       "scale": "1x",
       "idiom": "ipad"
     },
     {
-      "filename": "Appicon 58x58.png",
+      "filename": "58x58.png",
       "size": "29x29",
       "scale": "2x",
       "idiom": "ipad"
     },
     {
-      "filename": "Appicon 40x40.png",
+      "filename": "40x40.png",
       "size": "40x40",
       "scale": "1x",
       "idiom": "ipad"
     },
     {
-      "filename": "AppIcon 80x80.png",
+      "filename": "80x80.png",
       "size": "40x40",
       "scale": "2x",
       "idiom": "ipad"
     },
     {
-      "filename": "AppIcon 167x167.png",
+      "filename": "167x167.png",
       "size": "83.5x83.5",
       "scale": "2x",
       "idiom": "ipad"
     },
     {
-      "filename": "AppIcon 76x76.png",
+      "filename": "76x76.png",
       "size": "76x76",
       "scale": "1x",
       "idiom": "ipad"
     },
     {
-      "filename": "AppIcon 152x152.png",
+      "filename": "152x152.png",
       "size": "76x76",
       "scale": "2x",
       "idiom": "ipad"
     },
     {
-      "filename": "AppIcon 1024x1024.png",
+      "filename": "1024x1024.png",
       "size": "1024x1024",
       "scale": "1x",
       "idiom": "ios-marketing"
     },
     {
       "role": "notificationCenter",
-      "filename": "Appicon 48x48.png",
       "size": "24x24",
       "subtype": "38mm",
       "scale": "2x",
@@ -118,7 +117,6 @@
     },
     {
       "role": "notificationCenter",
-      "filename": "Appicon 55x55.png",
       "size": "27.5x27.5",
       "subtype": "42mm",
       "scale": "2x",
@@ -126,21 +124,18 @@
     },
     {
       "role": "companionSettings",
-      "filename": "Appicon 58x58.png",
       "size": "29x29",
       "scale": "2x",
       "idiom": "watch"
     },
     {
       "role": "companionSettings",
-      "filename": "AppIcon 87x87.png",
       "size": "29x29",
       "scale": "3x",
       "idiom": "watch"
     },
     {
       "role": "appLauncher",
-      "filename": "AppIcon 80x80.png",
       "size": "40x40",
       "subtype": "38mm",
       "scale": "2x",
@@ -148,7 +143,6 @@
     },
     {
       "role": "longLook",
-      "filename": "AppIcon 88x88.png",
       "size": "44x44",
       "subtype": "42mm",
       "scale": "2x",
@@ -156,7 +150,6 @@
     },
     {
       "role": "quickLook",
-      "filename": "AppIcon 172x172.png",
       "size": "86x86",
       "subtype": "38mm",
       "scale": "2x",
@@ -164,38 +157,32 @@
     },
     {
       "role": "quickLook",
-      "filename": "AppIcon 196x196.png",
       "size": "98x98",
       "subtype": "42mm",
       "scale": "2x",
       "idiom": "watch"
     },
     {
-      "filename": "AppIcon 16x16.png",
       "size": "16x16",
       "scale": "1x",
       "idiom": "mac"
     },
     {
-      "filename": "AppIcon 32x32.png",
       "size": "16x16",
       "scale": "2x",
       "idiom": "mac"
     },
     {
-      "filename": "AppIcon 32x32.png",
       "size": "32x32",
       "scale": "1x",
       "idiom": "mac"
     },
     {
-      "filename": "AppIcon 64x64.png",
       "size": "32x32",
       "scale": "2x",
       "idiom": "mac"
     },
     {
-      "filename": "AppIcon 128x128.png",
       "size": "128x128",
       "scale": "1x",
       "idiom": "mac"
@@ -211,19 +198,16 @@
       "idiom": "mac"
     },
     {
-      "filename": "AppIcon 512x512.png",
       "size": "256x256",
       "scale": "2x",
       "idiom": "mac"
     },
     {
-      "filename": "AppIcon 512x512.png",
       "size": "512x512",
       "scale": "1x",
       "idiom": "mac"
     },
     {
-      "filename": "AppIcon 1024x1024.png",
       "size": "512x512",
       "scale": "2x",
       "idiom": "mac"

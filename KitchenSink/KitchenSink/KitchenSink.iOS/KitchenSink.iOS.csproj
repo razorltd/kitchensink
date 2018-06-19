@@ -130,29 +130,6 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 16x16.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 20x20.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 32x32.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 64x64.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 128x128.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 512x512.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 1024x1024.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 172x172.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 196x196.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 88x88.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 80x80.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 87x87.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Appicon 58x58.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Appicon 55x55.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Appicon 48x48.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 167x167.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 152x152.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 76x76.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Appicon 40x40.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 29x29.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 120x120.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon 180x180.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Appicon 60x60.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\AppleTV 1920x1080.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\AppleTV x2.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\iPhone X Portrait .png" />
@@ -168,5 +145,19 @@
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\1024x768.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\2048x1536.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\320x480.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\20x20.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\40x40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\29x29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\58x58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\80x80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120x120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180x180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\60x60.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\58x58_1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\87x87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\76x76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\152x152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\167x167.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024x1024.png" />
   </ItemGroup>
 </Project>
