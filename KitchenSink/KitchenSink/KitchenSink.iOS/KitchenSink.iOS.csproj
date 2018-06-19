@@ -38,8 +38,9 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignProvision>VS: uk.co.razor.KitchenSink Development</CodesignProvision>
-    <CodesignKey>iPhone Developer: Danny Tomalin (SXZ98LD556)</CodesignKey>
+    <CodesignProvision>Kitchen Sink App Store</CodesignProvision>
+    <CodesignKey>iPhone Distribution: Razor Jam Ltd (92H74JGULF)</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
