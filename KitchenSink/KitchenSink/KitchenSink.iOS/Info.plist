@@ -21,11 +21,11 @@
 	<key>MinimumOSVersion</key>
 	<string>11.2</string>
 	<key>CFBundleDisplayName</key>
-	<string>XamarinExamplesPrism</string>
+	<string>The Razor Kitchen Sink</string>
 	<key>CFBundleVersion</key>
 	<string>1.2</string>
 	<key>CFBundleName</key>
-	<string>KitchenSink</string>
+	<string>The Razor Kitchen Sink</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>XSLaunchImageAssets</key>
